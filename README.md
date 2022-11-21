@@ -2,7 +2,7 @@
 
 Output       |  Output
 :-------------------------:|:-------------------------:
-![Output](Social-Distancing-Detection/Output/output.mp4.avi?raw=true "Output")  |  ![Output](Social-Distancing-Detection/Output/video4.mp4?raw=true "Output")
+![Output](Social-Distancing-Detection/Output/pedestrian-output.gif?raw=true "Output") 
 
 - Use case: counting the number of people in the stores/buildings/shopping malls etc., in real-time.
 - Sending an alert to the staff if the people are way over the social distancing limits.
