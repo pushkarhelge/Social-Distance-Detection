@@ -1,7 +1,7 @@
 # Social-Distancing-in-Real-Time
 
-Output       |  Output
-:-------------------------:|:-------------------------:
+Output       
+:-------------------------:
 ![Output](Social-Distancing-Detection/Output/pedestrian-output.gif?raw=true "Output") 
 
 - Use case: counting the number of people in the stores/buildings/shopping malls etc., in real-time.
