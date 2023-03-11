@@ -10,11 +10,19 @@ Output
 
 ---
 ## Theory
+This project is aimed at detecting people in a given video stream and then measuring the distance between them in real-time. The project uses deep learning techniques, specifically YOLO v3 object detection model, to detect and track people in the video. The project is mainly divided into three parts: object detection, object tracking, and distance measurement between detected people.
+
 **Object detection:**
 - I have used YOLOv3, trained on COCO dataset for object detection.
 - In general, single-stage detectors like YOLO tend to be less accurate than two-stage detectors (R-CNN) but are significantly faster.
 - YOLO treats object detection as a regression problem, taking a given input image and simultaneously learning bounding box coordinates and corresponding class label probabilities.
 - It is used to return the person prediction probability, bounding box coordinates for the detection, and the centroid of the person.
+---
+
+**Object Tracking:**
+- Once we have detected people in a frame, we need to track them across frames. 
+- To achieve this, centroid tracking algorithm is used for tracking objects in a video.
+- Centroid tracking works by assigning an ID to each detected person and then tracking their centroids (i.e., the center point of the bounding box that surrounds them) across frames.
 
 ---
 **Distance calculation:**
@@ -23,3 +31,5 @@ Output
 - Based on these pairwise distances, we check to see if any two people are less than/close to 'N' pixels apart.
 
 ## Thanks for the read!
+
+
