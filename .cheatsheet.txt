@@ -1,8 +1,0 @@
-touch gitignore
-git init
-git add .
-git commit -m "Initial Commit"
-git status #Just to see
-#ssh key
-git remote add origin <ssh url.git> //repository link
-git push origin master
